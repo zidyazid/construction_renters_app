@@ -16,10 +16,9 @@
           class="photo-profile"
         />
         <div>
-          <p class="title-content mb-2">Good Morning, {{ Auth::user()->name }}</p>
+          <p class="title-content mb-2">Hi, {{ Auth::user()->name }}</p>
           <p class="subtitle-content">
-            Finish your profile.
-            <a href="#" class="btn-link">Edit now</a>
+            Selamat Datang
           </p>
         </div>
       </div>

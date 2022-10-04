@@ -27,9 +27,11 @@
                     @else
                         <a href="{{ route('login') }}" class="text-sm text-light dark:text-gray-500 underline">Log in</a>
 
-                        @if (Route::has('renter'))
-                            <a href="{{ route('renter') }}" class="ml-4 text-sm text-light dark:text-gray-500 underline">Register</a>
-                        @endif
+                        {{-- @if (Route::has('register'))
+                            <a href="{{ route('register') }}" class="ml-4 text-sm text-light dark:text-gray-500 underline">Register</a>
+                        @endif --}}
+
+                            <a href="{{ route('register') }}" class="ml-4 text-sm text-light dark:text-gray-500 underline">Register</a>
                     @endauth
                 </div>
             @endif
